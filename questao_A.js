@@ -1,17 +1,17 @@
-  var dividendo = prompt ('Dígite um número para saber se é primo:')
+  var dividendo = prompt ('DÃ­gite um nÃºmero para saber se Ã© primo:')//Entrada de dados
         var divisor;
         var controle = 0;
         
         for (divisor = 1; divisor <= dividendo; divisor++) {
 
-			if (dividendo % divisor == 0) {
+			if (dividendo % divisor == 0) {//Verifica se resto da divisÃ£o Ã© zero, caso seja, o marcador controle recebe um valor.
 
 				controle++;
 			}
 		}
 
-		if (controle == 2) {
-			document.write('O número '+ dividendo +' é primo.');
+		if (controle == 2) {//Se o controle receber 2, significa que houve duas divisÃµes com resto zero, sendo assim, o valor Ã© primo.
+			document.write('O nÃºmero '+ dividendo +' Ã© primo.');
 		} else {
-			document.write('O número '+ dividendo +' não é primo.');
+			document.write('O nÃºmero '+ dividendo +' nÃ£o Ã© primo.');
 		}
