@@ -1,4 +1,6 @@
-  var dividendo = prompt ('Dígite um número para saber se é primo:')//Entrada de dados
+<script>  
+
+var dividendo = prompt ('Dígite um número para saber se é primo:')//Entrada de dados
         var divisor;
         var controle = 0;
         
@@ -15,3 +17,5 @@
 		} else {
 			document.write('O número '+ dividendo +' não é primo.');
 		}
+
+</script>
