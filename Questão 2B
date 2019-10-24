@@ -1,0 +1,3 @@
+Por que para chamar a função, a correta sintaxe é:
+
+Dog.bark() e não Dog.bark.
