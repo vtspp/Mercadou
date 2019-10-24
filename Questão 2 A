@@ -1,6 +1,7 @@
 Por que na condicional "if" é verificado que a variável "person" o conteúdo de "name" não é "amy".
 
 Reescrevendo o código para retornar "Hey Amy".
+
 function greet (person) {
  if (person != {name: 'amy'}){
  return 'hey amy'}else{
